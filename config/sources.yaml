@@ -1,0 +1,177 @@
+providers:
+  azure:
+    web_roots:
+      architecture:
+      - https://learn.microsoft.com/en-us/azure/architecture/
+      - https://learn.microsoft.com/en-us/azure/architecture/patterns/
+      - https://learn.microsoft.com/en-us/azure/architecture/browse/
+      - https://learn.microsoft.com/en-us/azure/architecture/example-scenario/
+      - https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/
+      well_architected:
+      - https://learn.microsoft.com/en-us/azure/well-architected/
+      - https://learn.microsoft.com/en-us/azure/well-architected/service-guides/
+      - https://learn.microsoft.com/en-us/azure/well-architected/reliability/
+      - https://learn.microsoft.com/en-us/azure/well-architected/security/
+      - https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/
+      - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
+      - https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/
+      - https://learn.microsoft.com/en-us/azure/well-architected/sustainability/
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/
+      - https://docs.aws.amazon.com/wellarchitected/latest/lens/
+      service_fundamentals:
+      - https://learn.microsoft.com/en-us/azure/virtual-machines/
+      - https://learn.microsoft.com/en-us/azure/virtual-network/
+      - https://learn.microsoft.com/en-us/azure/app-service/
+      - https://learn.microsoft.com/en-us/azure/aks/
+      - https://learn.microsoft.com/en-us/entra/identity/
+      - https://learn.microsoft.com/en-us/azure/storage/common/
+      - https://docs.aws.amazon.com/ec2/latest/userguide/concepts.html
+      - https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+      - https://docs.aws.amazon.com/iam/latest/userguide/introduction.html
+      - https://docs.aws.amazon.com/s3/latest/userguide/Welcome.html
+      - https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+      security:
+      - https://learn.microsoft.com/en-us/security/benchmark/azure/
+      - https://learn.microsoft.com/en-us/azure/security/benchmarks/
+      - https://learn.microsoft.com/en-us/azure/security/fundamentals/
+      - https://learn.microsoft.com/en-us/security/zero-trust/
+      - https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
+      - https://docs.aws.amazon.com/kms/latest/developerguide/overview.html
+      - https://docs.aws.amazon.com/general/latest/gr/aws-security-best-practices.html
+      cost_governance:
+      - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/
+      - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/
+      - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
+      - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/
+      - https://docs.aws.amazon.com/cost-management/"
+      - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
+      - https://docs.aws.amazon.com/controltower/latest/userguide/what-is-aws-control-tower.html
+    github_repos:
+    - https://github.com/MicrosoftDocs/architecture-center
+    - https://github.com/MicrosoftDocs/well-architected
+    - https://github.com/MicrosoftDocs/cloud-adoption-framework
+    - https://github.com/MicrosoftDocs/SecurityBenchmarks
+  aws:
+    web_roots:
+      architecture:
+      - https://aws.amazon.com/architecture/
+      - https://aws.amazon.com/architecture/reference-architecture/
+      - https://aws.amazon.com/solutions/
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/welcome.html
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html
+      - https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-modernizing-applications/modernize.html
+      well_architected:
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/security-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/performance-efficiency-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/framework/sustainability-pillar.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/lens/
+      - https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html
+      - https://docs.aws.amazon.com/wellarchitected/latest/financial-services-industry-lens/
+      service_fundamentals:
+      - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+      - https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+      - https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
+      - https://docs.aws.amazon.com/eks/latest/userguide/eks-architecture.html
+      - https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+      - https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
+      - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
+      - https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
+      - https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+      - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
+      security:
+      - https://docs.aws.amazon.com/security/
+      - https://docs.aws.amazon.com/general/latest/gr/aws-security-best-practices.html
+      - https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
+      - https://docs.aws.amazon.com/kms/latest/developerguide/overview.html
+      - https://aws.amazon.com/compliance/
+      cost_governance:
+      - https://docs.aws.amazon.com/cost-management/
+      - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-explorer-what-is.html
+      - https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
+      - https://docs.aws.amazon.com/awssupport/latest/user/getting-started-with-aws-trusted-advisor.html
+      - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
+      - https://docs.aws.amazon.com/controltower/latest/userguide/what-is-aws-control-tower.html
+    github_repos:
+    - https://github.com/awslabs/
+    - https://github.com/awslabs/aws-well-architected-labs
+    - https://github.com/aws-samples/well-architected-iac-analyzer
+    - https://github.com/aws-samples/aws-security-reference-architecture-examples
+    - https://github.com/aws-samples/aws-analytics-reference-architecture
+    - https://github.com/awsdocs/aws-doc-sdk-examples
+    - https://github.com/awsdocs/amazon-ec2-user-guide
+    - https://github.com/awsdocs/amazon-s3-userguide
+    - https://github.com/awsdocs/aws-lambda-developer-guide
+    - https://github.com/awsdocs/amazon-eks-user-guide
+    - https://github.com/awsdocs/aws-control-tower-guide
+  gcp:
+    web_roots:
+      architecture:
+      - https://cloud.google.com/architecture
+      - https://cloud.google.com/architecture/patterns
+      - https://cloud.google.com/architecture/blueprints
+      - https://cloud.google.com/architecture/framework
+      - https://cloud.google.com/architecture/industry
+      - https://cloud.google.com/architecture/migration
+      - https://docs.cloud.google.com/architecture/big-data-analytics
+      well_architected:
+      - https://cloud.google.com/well-architected
+      - https://cloud.google.com/architecture/framework/operational-excellence
+      - https://cloud.google.com/architecture/framework/security
+      - https://cloud.google.com/architecture/framework/reliability
+      - https://cloud.google.com/architecture/framework/cost-optimization
+      - https://cloud.google.com/architecture/framework/performance
+      - https://cloud.google.com/architecture/framework/sustainability
+      - https://docs.cloud.google.com/architecture/framework
+      - https://docs.cloud.google.com/architecture/framework/operational-excellence
+      - https://docs.cloud.google.com/architecture/framework/security
+      - https://docs.cloud.google.com/architecture/framework/reliability
+      - https://docs.cloud.google.com/architecture/framework/cost-optimization
+      - https://docs.cloud.google.com/architecture/framework/performance-optimization
+      - https://docs.cloud.google.com/architecture/framework/sustainability
+      service_fundamentals:
+      - https://cloud.google.com/compute/docs
+      - https://cloud.google.com/kubernetes-engine/docs
+      - https://cloud.google.com/run/docs
+      - https://cloud.google.com/vpc/docs
+      - https://cloud.google.com/load-balancing/docs
+      - https://cloud.google.com/dns/docs
+      - https://cloud.google.com/iam/docs
+      - https://cloud.google.com/identity-platform/docs
+      - https://cloud.google.com/docs/authentication
+      - https://cloud.google.com/storage/docs
+      - https://cloud.google.com/compute/docs/disks
+      security:
+      - https://cloud.google.com/security
+      - https://cloud.google.com/architecture/security-best-practices
+      - https://cloud.google.com/architecture/security-foundations
+      - https://cloud.google.com/beyondcorp
+      - https://cloud.google.com/security/compliance
+      cost_governance:
+      - https://cloud.google.com/cost-management/docs
+      - https://cloud.google.com/architecture/cost-management
+      - https://cloud.google.com/resource-manager/docs
+      - https://cloud.google.com/resource-manager/docs/organization-policy/overview
+      - https://cloud.google.com/architecture/cloud-foundation-toolkit
+      - https://cloud.google.com/cost-management
+    github_repos:
+    - https://github.com/GoogleCloudPlatform/cloud-foundation-toolkit
+    - https://github.com/GoogleCloudPlatform/architecture-center-samples
+    - https://github.com/GoogleCloudPlatform/professional-services
+    - https://github.com/GoogleCloudPlatform/cloud-solutions
+    - https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+    - https://github.com/GoogleCloudPlatform/security-blueprints
+    - https://github.com/GoogleCloudPlatform/platform-engineering
+    - https://github.com/terraform-google-modules/terraform-example-foundation
+    - https://github.com/terraform-google-modules/terraform-google-network
+    - https://github.com/terraform-google-modules/terraform-google-project-factory
+    - https://github.com/GoogleCloudPlatform/solutions-builder
+    - https://github.com/GCP-Architecture-Guides/csa-devsecops
+    - https://github.com/GoogleCloudPlatform/microservices-demo
+    - https://github.com/GoogleCloudPlatform/transactional-microservice-examples
