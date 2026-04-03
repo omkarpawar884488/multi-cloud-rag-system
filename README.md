@@ -156,6 +156,19 @@ streamlit run app.py
 
 ---
 
+## 🖥️ Demo (Streamlit UI)
+
+### 🔹 Multi-cloud query and response
+
+![Main Demo](images/demo_main.png)
+
+### 🔹 Structured comparison and source grounding
+
+![Sources Demo](images/demo_sources.png)
+
+
+---
+
 ## 💬 Example Query
 
 "What is AWS Well-Architected Framework and how does it compare with Azure Landing Zones?"
